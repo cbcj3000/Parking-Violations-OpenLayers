@@ -1,6 +1,9 @@
-from django.urls import path
-from .views import index
+from django.contrib import admin
+from django.urls import include, path
+from . import views
 
 urlpatterns = [
-    path('map/', index, name='index'),
+    path("PVApp/", include("PVApp.urls")),
+    path("admin/", admin.site.urls),
+    path('map200/', views.connsql, name='map200'),
 ]
