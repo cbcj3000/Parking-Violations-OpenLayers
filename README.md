@@ -8,3 +8,8 @@ This map displays parking violations recorded from the year 2018 to the present 
 - Total Records that says how many records are in the specified data range
 - Start and End year drop downs that filter the data when apply is clicked
 - Switch mode that shows the two different ways to view the map, as a heatmap and as a clustered map
+
+
+Notes:
+- The year dropdowns reset when the page reloads after applying the selected filter
+- The total records shows the actual amount of records but as it states in the about tab, only 200,000 records show at a time. I set it to this amount(you can see where this is done in views.py) as it is the amount of data that could load in a reasonable amount of time(around 15-20 seconds)
