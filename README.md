@@ -1,4 +1,4 @@
-# Parking-Violations-Open-Layers-
+# Parking-Violations-Open-Layers
 This map displays parking violations recorded from the year 2018 to the present in an interactive map application using OpenLayers. Some functionality is described below:
 - A side bar with two tabs
   - An about tab saying what the website does
