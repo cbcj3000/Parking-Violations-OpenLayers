@@ -1,8 +1,9 @@
 # Parking-Violations-Open-Layers-
-This map displays parking violations recorded from the year 2018 to the present in an interactive map application using open layers. Some functionality is described below:
+This map displays parking violations recorded from the year 2018 to the present in an interactive map application using OpenLayers. Some functionality is described below:
 - A side bar with two tabs
   - An about tab saying what the website does
   - A map tab that shows information about the data clicked on
+      - The violation code descriptions were retrieved from an API on OpenData
       - For the heatmap it shows the violation code and description for that one point
       - For clusters map it shows all the violation codes and descriptions present in the cluster clicked on
 - Total Records that says how many records are in the specified data range
